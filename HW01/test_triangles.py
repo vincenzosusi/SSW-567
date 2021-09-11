@@ -31,4 +31,4 @@ def test_triangles10():
     assert classify_triangle(3, 4, 0) == "Error"
 
 def test_triangles11():
-    assert classify_triangle(21, 15, 5) == "Error"
+    assert classify_triangle(-3, 4, -5) == "Error"

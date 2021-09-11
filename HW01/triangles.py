@@ -6,8 +6,8 @@ SSW-567 Homework 1
 
 def classify_triangle(a, b, c):
     # Check for errors
-    if a == 0 or b == 0 or c == 0:
-        # A triangle cannot have a side length of 0
+    if a <= 0 or b <= 0 or c <= 0:
+        # A triangle cannot have a side length of 0 or a negative side length
         return "Error"
     if a + b < c or a + c < b or b + c < a:
         # The sum of any two sides of a triangle must be greater than the third side
